@@ -105,7 +105,7 @@ login.addEventListener('click', function() {
   var pwValue = loginPagePw.value;
   if(idValue && pwValue) {
     /* 로그인 완료. 인덱스 페이지로 이동. */
-    window.location.href = "https://gwak-seungju.github.io/LogInPage/LogInPage.html"
+    window.location.href = "https://gwak-seungju.github.io/LogInPage/"
   }
   else {
     alert("id, pw를 입력해주세요.");
