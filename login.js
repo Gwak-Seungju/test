@@ -82,6 +82,7 @@ signup.addEventListener('click', function() {
   var phone_numValue = phone_number.value;
   if(idValue && pwValue && pwCheckValue && s_numValue && phone_numValue) {
     alert('회원가입이 완료되었습니다!');
+    window.location.href = "https://gwak-seungju.github.io/LogInPage/LogInPage.html"
   }
   else {
     alert('모든 칸을 입력해 주시기 바랍니다.');
