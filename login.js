@@ -96,7 +96,7 @@ cancel.addEventListener('click', function() {
   window.location.href = "https://gwak-seungju.github.io/LogInPage/LogInPage.html"
 })
 
-/* 로그인 창에서 로그인 버튼 누를 시 */
+/* 로그인 창에서 로그인 버튼 누를 시 --> 작동이 안됨, html파일에 넣으면 잘 동작함.*/
 const login = document.querySelector('.login');
 const loginPageId = document.getElementById('loginPageId');
 const loginPagePw = document.getElementById('loginPagePw');
