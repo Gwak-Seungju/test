@@ -1,4 +1,4 @@
-/* 로그인 창에서 로그인 버튼 누를 시 */
+// 로그인 창에서 로그인 버튼 누를 시
 const login = document.querySelector('.login');
 const loginPageId = document.getElementById('loginPageId');
 const loginPagePw = document.getElementById('loginPagePw');
