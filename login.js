@@ -15,7 +15,6 @@ login.addEventListener('click', function() {
     sessionStorage.setItem("id", idValue);
     
     console.log(document.cookie, localStorage.getItem("id"), sessionStorage.getItem("id"));
-    //window.location.href = "https://gwak-seungju.github.io/LogInPage/"
   }
   else {
     alert("id, pw를 입력해주세요.");
