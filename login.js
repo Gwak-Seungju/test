@@ -8,7 +8,15 @@ login.addEventListener('click', function() {
   var pwValue = loginPagePw.value;
   if(idValue && pwValue) {
     /* 로그인 완료. 인덱스 페이지로 이동. */
-    window.location.href = "https://gwak-seungju.github.io/LogInPage/"
+    var date = new Date();
+    date.setHours(date.getHours() + 72);
+    document.cookie = `id = ${idValue}; expires=${date.toUTCString()}`;
+    localStorage.setItem("id", idValue);
+    sessionStorage.setItem("id", idValue);
+
+    alert(`${document.cookie, localStorage.getItem("id"), sessionStorage.getItem("id")}`);
+
+    //window.location.href = "https://gwak-seungju.github.io/LogInPage/"
   }
   else {
     alert("id, pw를 입력해주세요.");
