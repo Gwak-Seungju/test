@@ -14,7 +14,8 @@ login.addEventListener('click', function() {
     localStorage.setItem("id", idValue);
     sessionStorage.setItem("id", idValue);
 
-    alert(`${document.cookie, localStorage.getItem("id"), sessionStorage.getItem("id")}`);
+    console.log(document.cookie, localStorage.getItem("id"), sessionStorage.getItem("id"));
+
 
     //window.location.href = "https://gwak-seungju.github.io/LogInPage/"
   }
