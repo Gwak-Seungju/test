@@ -65,3 +65,8 @@
   border: none;
   border-radius: 5px;
 }
+
+.startPage {
+  color: blueviolet;
+  margin: 8px;
+}
