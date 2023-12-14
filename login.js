@@ -14,7 +14,7 @@ login.addEventListener('click', function() {
     localStorage.setItem("id", idValue);
     sessionStorage.setItem("id", idValue);
     
-    console.log(document.cookie, localStorage.getItem("id"), sessionStorage.getItem("id"));
+    window.location.href = "index.html";
   }
   else {
     alert("id, pw를 입력해주세요.");
