@@ -13,10 +13,8 @@ login.addEventListener('click', function() {
     document.cookie = `id = ${idValue}; expires=${date.toUTCString()}`;
     localStorage.setItem("id", idValue);
     sessionStorage.setItem("id", idValue);
-
+    
     console.log(document.cookie, localStorage.getItem("id"), sessionStorage.getItem("id"));
-
-
     //window.location.href = "https://gwak-seungju.github.io/LogInPage/"
   }
   else {
